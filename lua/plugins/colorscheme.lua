@@ -11,11 +11,4 @@ return {
       vim.cmd("colorscheme vague")
     end,
   },
-  {
-    "folke/which-key.nvim",
-    opts = {
-      preset = "helix",
-      delay = 200,
-    },
-  },
 }
