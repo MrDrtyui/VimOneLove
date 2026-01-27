@@ -10,7 +10,8 @@ vim.keymap.set("n", "<S-Tab>", "gT", { desc = "Previous Tab" })
 
 vim.keymap.set("n", "ss", ":Neotree toggle<CR>", { desc = "Toggle file explorer" })
 
-vim.keymap.set("n", "sf", function()
+-- Telescope
+vim.keymap.set("n", "<leader><leader>", function()
   require("telescope.builtin").find_files()
 end, { desc = "Search files" })
 
