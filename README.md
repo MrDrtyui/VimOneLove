@@ -100,8 +100,6 @@ A modern, feature-rich Neovim setup built on LazyVim with custom plugins and key
 └── init.lua
 
 
-
-
 ### Install
 
 1. **Backup existing config:**
