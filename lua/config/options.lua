@@ -28,10 +28,11 @@ o.showmode = false
 o.clipboard = "unnamedplus"
 o.mouse = "a"
 
-vim.opt.expandtab = true
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
-vim.opt.smartindent = true
+o.expandtab = true
+o.tabstop = 2
+o.shiftwidth = 2
+o.softtabstop = 2
+o.smartindent = true
+
 -- Misc
 o.wrap = true
