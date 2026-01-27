@@ -35,5 +35,3 @@ vim.opt.softtabstop = 2
 vim.opt.smartindent = true
 -- Misc
 o.wrap = true
-vim.opt.scrolloff = 8
-vim.opt.sidescrolloff = 8
