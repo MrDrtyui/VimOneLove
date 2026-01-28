@@ -9,11 +9,12 @@ A modern, feature-rich Neovim setup built on LazyVim with custom plugins and key
 <div align="center">
   <img src="assets/screenshots/full6.png" alt="Interface" width="800"/>
 </div>
+
+### Full Interface
 <div align="center">
   <img src="assets/screenshots/full5.png" alt="Interface" width="800"/>
 </div>
 
-### Full Interface
 <div align="center">
   <img src="assets/screenshots/full.png" alt="Full Interface" width="800"/>
   <img src="assets/screenshots/full2.png" alt="Full Interface 2" width="800"/>
