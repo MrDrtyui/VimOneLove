@@ -8,8 +8,6 @@ vim.keymap.set("n", "<leader>tc", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 vim.keymap.set("n", "<Tab>", "gt", { desc = "Next Tab" })
 vim.keymap.set("n", "<S-Tab>", "gT", { desc = "Previous Tab" })
 
-vim.keymap.set("n", "ss", ":Neotree toggle<CR>", { desc = "Toggle file explorer" })
-
 -- Telescope
 vim.keymap.set("n", "<leader><leader>", function()
   require("telescope.builtin").find_files()
