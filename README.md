@@ -5,6 +5,30 @@ A modern, feature-rich Neovim setup built on LazyVim with custom plugins and key
 
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
+## 📸 Screenshots
+
+### Full Interface
+<div align="center">
+  <img src="assets/screenshots/full.png" alt="Full Interface" width="800"/>
+  <img src="assets/screenshots/full2.png" alt="Full Interface 2" width="800"/>
+</div>
+
+### Snacks Dashboard
+<div align="center">
+  <img src="assets/screenshots/snacks1.png" alt="Snacks Dashboard" width="800"/>
+  <img src="assets/screenshots/snacks2.png" alt="Snacks Dashboard 2" width="800"/>
+</div>
+
+### Telescope Fuzzy Finder
+<div align="center">
+  <img src="assets/screenshots/telescope1.png" alt="Telescope" width="800"/>
+  <img src="assets/screenshots/telescope2.png" alt="Telescope 2" width="800"/>
+</div>
+
+### Zen Mode
+<div align="center">
+  <img src="assets/screenshots/zenmode.png" alt="Zen Mode" width="800"/>
+</div>
 
 ## ✨ Features
 
