@@ -7,6 +7,9 @@ A modern, feature-rich Neovim setup built on LazyVim with custom plugins and key
 ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
 ## 📸 Screenshots
 <div align="center">
+  <img src="assets/screenshots/full6.png" alt="Interface" width="800"/>
+</div>
+<div align="center">
   <img src="assets/screenshots/full5.png" alt="Interface" width="800"/>
 </div>
 
