@@ -8,6 +8,7 @@ return {
         "shfmt",
         "flake8",
         "gofumpt",
+        "docker-language-server",
       },
     },
   },

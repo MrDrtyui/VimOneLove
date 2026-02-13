@@ -8,6 +8,9 @@ return {
         "go",
         "gomod",
         "python",
+        "json",
+        "dockerfile",
+        "yaml",
       })
     end,
   },

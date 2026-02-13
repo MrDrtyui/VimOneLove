@@ -10,6 +10,7 @@ return {
         pyright = {},
         gopls = {},
         tsserver = {},
+        docker_language_server = {},
       },
     },
   },
