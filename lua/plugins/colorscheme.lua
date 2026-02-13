@@ -60,6 +60,7 @@ return {
       -- vim.cmd("colorscheme rose-pine")
     end,
   },
+
   {
     "shaunsingh/nord.nvim",
     lazy = false,
@@ -69,11 +70,10 @@ return {
       vim.g.nord_borders = false
       vim.g.nord_disable_background = true
       vim.g.nord_italic = true
-      vim.cmd("colorscheme nord")
+      -- vim.cmd("colorscheme nord")
     end,
   },
 
-  -- Kanagawa - тема вдохновлена японской живописью
   {
     "rebelot/kanagawa.nvim",
     priority = 1000,
