@@ -15,7 +15,6 @@ return {
     event = "BufReadPre",
     priority = 1200,
     config = function()
-      -- Vague цветовая схема
       local vague_colors = {
         purple = "#8b5cf6",
         light_purple = "#a78bfa",
