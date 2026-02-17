@@ -18,8 +18,13 @@ return {
     opts = function(_, opts)
       local null_ls = require("null-ls")
       opts.sources = opts.sources or {}
+
+      -- GO
       table.insert(opts.sources, null_ls.builtins.formatting.gofumpt)
-      table.insert(opts.sources, null_ls.builtins.formatting.goimports) -- опционально
+      table.insert(opts.sources, null_ls.builtins.formatting.goimports)
+
+      -- TS / TSX / JS / JSX
+      table.insert(opts.sources, null_ls.builtins.formatting.prettier)
     end,
   },
   { import = "lazyvim.plugins.extras.lsp.none-ls" },

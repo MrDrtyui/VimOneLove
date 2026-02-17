@@ -18,4 +18,18 @@ return {
   },
 
   { "wakatime/vim-wakatime", lazy = false },
+  {
+    "stevearc/conform.nvim",
+    opts = {
+      formatters_by_ft = {
+        html = { "prettier" },
+        css = { "prettier" },
+        scss = { "prettier" },
+        javascript = { "prettier" },
+        typescript = { "prettier" },
+        javascriptreact = { "prettier" },
+        typescriptreact = { "prettier" },
+      },
+    },
+  },
 }
