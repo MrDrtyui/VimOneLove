@@ -8,7 +8,6 @@ return {
     },
   },
 
-  -- filename
   {
     "b0o/incline.nvim",
     dependencies = { "vague-theme/vague.nvim" },
