@@ -4,7 +4,7 @@ return {
     opts = {
       backends = { "lsp", "treesitter", "markdown", "man" },
       layout = {
-        min_width = 28,
+        min_width = 22,
       },
       show_guides = true,
     },
