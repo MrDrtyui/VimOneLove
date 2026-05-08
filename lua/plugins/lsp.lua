@@ -23,6 +23,11 @@ return {
             "svelte",
           },
         },
+        bufls = {
+          cmd = { "bufls", "serve" },
+          filetypes = { "proto" },
+          root_dir = require("lspconfig.util").root_pattern("buf.yaml", ".git"),
+        },
       },
     },
   },

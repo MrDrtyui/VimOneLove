@@ -1,54 +1,21 @@
 return {
-
-  {
-    "folke/trouble.nvim",
-    opts = { use_diagnostic_signs = true },
-  },
-
-  {
-    "github/copilot.vim",
-  },
-
-  {
-    "hrsh7th/nvim-cmp",
-    dependencies = { "hrsh7th/cmp-emoji" },
-    ---@param opts cmp.ConfigSchema
-    opts = function(_, opts)
-      table.insert(opts.sources, { name = "emoji" })
-    end,
-  },
-
-  { "wakatime/vim-wakatime", lazy = false },
-  {
-    "stevearc/conform.nvim",
-    opts = {
-      formatters_by_ft = {
-        html = { "prettier" },
-        css = { "prettier" },
-        scss = { "prettier" },
-        javascript = { "prettier" },
-        typescript = { "prettier" },
-        javascriptreact = { "prettier" },
-        typescriptreact = { "prettier" },
-      },
-    },
-  },
-
   {
     "yetone/avante.nvim",
     -- if you want to build from source then do `make BUILD_FROM_SOURCE=true`
     -- ⚠️ must add this setting! ! !
     build = "make",
     event = "VeryLazy",
-    version = false, -- Never set this value to "*! Never!
+    version = false, -- Never set this value to "*"! Never!
     ---@module 'avante'
     ---@type avante.Config
     opts = {
       provider = "ollama",
+      auto_suggestions_provider = "ollama",
       providers = {
         ollama = {
           endpoint = "http://127.0.0.1:11434",
-          model = "qwen2.5-coder:7b",
+          use_ReAct_prompt = false,
+          model = "qwen2.5-coder:14b",
         },
       },
 

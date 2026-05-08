@@ -7,13 +7,11 @@ vim.keymap.set("n", "<leader>tn", "<cmd>tabnew<cr>", { desc = "New Tab" })
 vim.keymap.set("n", "<leader>tc", "<cmd>tabclose<cr>", { desc = "Close Tab" })
 vim.keymap.set("n", "<Tab>", "gt", { desc = "Next Tab" })
 vim.keymap.set("n", "<S-Tab>", "gT", { desc = "Previous Tab" })
-
 -- Telescope
 vim.keymap.set("n", "<leader><leader>", function()
   require("telescope.builtin").find_files()
 end, { desc = "Search files" })
-
--- Aerial keymaps
+vim.keymap.set("n", "<leader>i", "<cmd>AvanteToggle<cr>", { desc = "Avante toggle" }) -- Aerial keymaps
 vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle<cr>", { desc = "Aerial (Symbols)" })
 
 -- Terminal

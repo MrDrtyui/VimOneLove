@@ -11,6 +11,7 @@ return {
         "json",
         "dockerfile",
         "yaml",
+        "proto",
       })
     end,
   },
